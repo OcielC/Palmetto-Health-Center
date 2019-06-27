@@ -1,0 +1,14 @@
+/* grid system for footer logo and sections */
+#footer .row {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+
+/* grid system for terms and privacy in the footer */
+#footer .outline-row {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 60% 40%;
+}
