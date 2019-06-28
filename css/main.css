@@ -23,7 +23,7 @@ a {
 /* container for entire site can be implemented in each section individually if you are having trouble with images. */
 .container {
   width: 100%;
-  max-width: 1400px;
+  max-width: 1200px;
   /* padding: 20px; */
   margin: 0 auto;
 }
