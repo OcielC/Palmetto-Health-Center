@@ -1,11 +1,19 @@
 /* this site url is for icons from font awesome */
 @import 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.css';
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
 @import 'reset.css';
 @import 'header.css';
+@import 'services.css';
 @import 'footer.css';
 
 * {
   box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+html,
+body {
+  font-family: 'Poppins', Helvetica, sans-serif;
 }
 
 a {
@@ -14,8 +22,14 @@ a {
 
 /* container for entire site can be implemented in each section individually if you are having trouble with images. */
 .container {
-  width: 1400px;
-  max-width: 100%;
+  width: 100%;
+  max-width: 1400px;
   /* padding: 20px; */
   margin: 0 auto;
+}
+
+@media screen and (max-width: 1000px) {
+  .container {
+    max-width: 900px;
+  }
 }
