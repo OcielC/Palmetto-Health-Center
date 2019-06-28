@@ -1,8 +1,8 @@
 /* this site url is for icons from font awesome */
 @import 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.css';
-@import '/css/reset.css';
-@import '/css/header.css';
-@import '/css/footer.css';
+@import 'reset.css';
+@import 'header.css';
+@import 'footer.css';
 
 * {
   box-sizing: border-box;
