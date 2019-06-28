@@ -3,6 +3,8 @@
 @import 'reset.css';
 @import 'header.css';
 @import 'footer.css';
+@import 'location.css';
+
 
 * {
   box-sizing: border-box;
