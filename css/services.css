@@ -7,6 +7,7 @@
 
 .services__header {
   margin: 0 auto;
+  text-align: center;
 }
 
 .services__header h2 {
@@ -24,35 +25,52 @@
   line-height: 1.5;
   font-size: 1.25rem;
   color: #777;
+  padding: 0 10%;
 }
 
 .services__card-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   justify-content: space-between;
-  grid-gap: 25px;
+  grid-gap: 5px;
   margin: 75px 0;
 }
 
 .services__card {
-  height: 350px;
-  width: 300px;
+  height: 380px;
+  width: 370px;
   background-color: #fff;
   display: flex;
   justify-content: center;
-
+  position: relative;
   align-items: center;
+  box-shadow: 2px 2px 5px #ccc;
+  padding: 0 10px;
 }
 
+.services__span--arrow {
+  position: absolute;
+  top: 50%;
+  right: -50px;
+  border-radius: 50%;
+  border: 2px solid #ededed;
+  margin: -50px 0 0;
+  width: 75px;
+  height: 75px;
+  background-color: #fff;
+  z-index: 10;
+}
 .services__card--info {
   text-align: center;
 }
 
 .services__card-redText {
   color: #e74e84;
-  font-size: 1.25rem;
+  font-size: 1.3rem;
   text-transform: uppercase;
-  font-weight: 400;
+  font-weight: 500;
+  margin: 25px 0 10px;
+  line-height: 1.2;
 }
 
 .services__card-darkText {
