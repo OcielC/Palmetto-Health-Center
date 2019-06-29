@@ -1,20 +1,18 @@
 #services {
   background-color: #f5f8fa;
-
+  padding: 120px 0 90px;
   color: #555;
   padding: 100px 0;
 }
 
 .services__header {
   margin: 0 auto;
-  padding: 120px 15px 90px;
 }
 
 .services__header h2 {
   font-size: 2.25rem;
   text-align: center;
   text-transform: uppercase;
-  margin-bottom: 10px;
 }
 
 .service__span--darkText {
@@ -25,6 +23,7 @@
 .services__p--text {
   line-height: 1.5;
   font-size: 1.25rem;
+  color: #777;
 }
 
 .services__card-container {
@@ -32,6 +31,7 @@
   grid-template-columns: 1fr 1fr 1fr;
   justify-content: space-between;
   grid-gap: 25px;
+  margin: 75px 0;
 }
 
 .services__card {
@@ -57,4 +57,19 @@
 
 .services__card-darkText {
   padding: 10px 20px;
+}
+
+.services__button {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+.services__button button {
+  background-color: #e74e84;
+  padding: 0.75rem 2.8rem;
+  border-radius: 20px;
+  color: #fff;
+  font-weight: 600;
+  font-size: 1rem;
 }
