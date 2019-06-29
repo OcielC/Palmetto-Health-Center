@@ -126,6 +126,12 @@
   cursor: pointer;
   padding: 5px 20px;
   border-radius: 30px;
+  transition: all .3s ease-in-out;
+}
+
+#location .doctors-col .doctors-list .col-3 ul li:last-child a:hover {
+  background-color: #e74e84;
+  color: #fff;
 }
 
 
