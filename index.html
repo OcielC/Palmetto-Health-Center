@@ -1,14 +1,19 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="utf-8" />
+    <!-- title for project can still be changed  -->
+    <title>Doctors Office</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/main.css" />
+    <script
+      async=""
+      defer=""
+      src="https://buttons.github.io/buttons.js"
+    ></script>
+  </head>
 
-<head>
-  <meta charset="utf-8">
-  <!-- title for project can still be changed  -->
-  <title>DoctorsOffice</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="css/main.css">
-  <script async="" defer="" src="https://buttons.github.io/buttons.js"></script>
-</head>
+
 
 <body>
   <header id="menu">
@@ -192,7 +197,62 @@
       </div>
     </div>
   </section>
-
+  <!-- Begin Services -->
+  <section id="services">
+    <div class="container">
+      <div class="services__header">
+        <h2>
+          Discover the
+          <span class="service__span--darkText">Online</span> Appointment!
+        </h2>
+        <p class="services__p--text">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit
+          numquam hic ullam impedit dolore temporibus eaque quis tenetur velit
+          minima, neque eum doloremque consequuntur.
+        </p>
+      </div>
+      <div class="services__card-container">
+        <div class="services__card">
+          <div>
+            <span class="services__span--arrow"></span>
+            <div class="services__card--info">
+              <h4 class="services__card-redText">Find A Doctor</h4>
+              <h6 class="services__card-darkText">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Sapiente veritatis, aliquid laboriosam aperiam quia accusamus
+                aspernatur delectus numquam?
+              </h6>
+            </div>
+          </div>
+        </div>
+        <div class="services__card">
+          <span class="services__span--arrow"></span>
+          <div class="services__card--info">
+            <h4 class="services__card-redText">View Profile</h4>
+            <h6 class="services__card-darkText">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Sapiente veritatis, aliquid laboriosam aperiam quia accusamus
+              aspernatur delectus numquam?
+            </h6>
+          </div>
+        </div>
+        <div class="services__card">
+          <div class="services__card--info">
+            <h4 class="services__card-redText">Take A Shit</h4>
+            <h6 class="services__card-darkText">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Sapiente veritatis, aliquid laboriosam aperiam quia accusamus
+              aspernatur delectus numquam?
+            </h6>
+          </div>
+        </div>
+      </div>
+      <div class="services__button">
+        <button>Find Doctor</button>
+      </div>
+    </div>
+  </section>
+  <!-- End Services Section -->
   <footer id="footer">
     <div class="container">
       <div class="row">
@@ -222,42 +282,27 @@
                 (310)999-9999
               </a>
             </li>
-            <li>
-              <a href="#">
-                <i class="far fa-envelope"></i>
-                info@doctorsoffice.com
+            <li class="doctors">
+              <a href="#doctors">
+                Doctors
+              </a>
+            </li>
+            <li class="services">
+              <a href="#services">
+                Services
+              </a>
+            </li>
+            <li class="contact">
+              <a href="#contact">
+                Contact
               </a>
             </li>
           </ul>
-          <div class="footer-follow">
-            <h5>Follow Us</h5>
-            <ul class="socials">
-              <li class="facebook"><i class="fab fa-facebook-square"></i></li>
-              <li class="twitter"><i class="fab fa-twitter"></i></li>
-              <li class="linkedin"><i class="fab fa-linkedin"></i></li>
-              <li class="instagram"><i class="fab fa-instagram"></i></li>
-            </ul>
-          </div>
-        </div>
+        </nav>
       </div>
-      <hr>
-      <div class="outline-row">
-        <div class="terms">
-          <ul>
-            <li class="terms">Terms and Conditions</li>
-            <li class="privacy">Privacy</li>
-          </ul>
-        </div>
-        <div class="doctors">
-          <div id="copy">&#169; 2019 DoctorsOffice</div>
-        </div>
-      </div>
-    </div>
-  </footer>
-
-  <!-- these scripts aren't in use but i rather keep them here and not have anything breaking. These scripts are for react components. -->
-  <script src="/js/dist/vendors~FirstComp.js"></script>
-  <script src="/js/dist/FirstComp.js"></script>
-</body>
+    </header>
+ 
+   
+    
 
 </html>
