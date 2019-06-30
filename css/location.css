@@ -140,7 +140,7 @@
   padding: 15px;
 }
 
-#location .map-col img {
+#location .map-col iframe {
   width: 100%;
   border: 5px solid #fff;
   border-radius: 3px;
