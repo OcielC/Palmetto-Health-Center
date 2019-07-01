@@ -83,13 +83,60 @@
 
 #contact-area .contact-form-section {
     background: #FFFFFF;
-    width: 50%;
     display: inline-block;
     position: absolute;
     -webkit-box-shadow: 0px 1px 19px 4px rgba(239,242,244,1);
     -moz-box-shadow: 0px 1px 19px 4px rgba(239,242,244,1);
     box-shadow: 0px 1px 19px 4px rgba(239,242,244,1);
     border-radius: 5px;
+    padding: 20px;
 }
+
+#contact-area .contact-form-section  h3{
+   font-size: 2rem;
+   margin-bottom: 1rem;
+   font-weight: 600;
+}
+
+#contact-area .contact-form-section p{
+    margin-bottom: 1rem;
+}
+
+#contact-area .contact-form-section .form {
+       
+}
+
+#contact-area .contact-form-section .row {
+    display: flex;
+    /* margin-bottom: 0.5rem;   */
+}
+
+#contact-area .contact-form-section .col .form-group .form-control{
+    margin-bottom: 10px;
+    border-radius: 5px;
+    padding: 7px 20px;
+    border: none;
+    border: 1px solid #ced4da;
+    margin-right: 20px;
+}
+
+#contact-area .contact-form-section .col .form-group .message_contact{
+    width: 443px;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+#contact-area .contact-form-section .form .btn-submit{
+    background: #E74E84;
+    color: #ffffff;
+    padding: 7px 20px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: .8rem;
+    font-weight: 500;
+    border: none;
+}
+
+
 
 /* Contact Form Section  End Here  */
