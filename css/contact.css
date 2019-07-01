@@ -33,7 +33,6 @@
     font-size: 1.125rem;
 }
 
-
 #contact-area .contact-details .direction {
     margin-bottom: 45px;
 }
@@ -50,7 +49,6 @@
     padding: 7px 20px;
     border: none;
     border: 1px solid #ced4da;
-
 }
 
 #contact-area .contact-details .direction a {
@@ -62,7 +60,6 @@
     margin-bottom: 50px;
     font-size: .8rem;
     font-weight: 500;
-
 }
 
 #contact-area .contact-details h1 {
@@ -77,10 +74,7 @@
 /* Contact Details Section End Here  */
 
 
-
-
 /* Contact Form Section  Start Here  */
-
 #contact-area .contact-form-section {
     background: #FFFFFF;
     display: inline-block;
@@ -102,15 +96,9 @@
     margin-bottom: 1rem;
 }
 
-#contact-area .contact-form-section .form {
-       
-}
-
 #contact-area .contact-form-section .row {
     display: flex;
-    /* margin-bottom: 0.5rem;   */
 }
-
 #contact-area .contact-form-section .col .form-group .form-control{
     margin-bottom: 10px;
     border-radius: 5px;
