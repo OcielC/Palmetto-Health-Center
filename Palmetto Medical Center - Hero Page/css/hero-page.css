@@ -1,0 +1,139 @@
+
+html * {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+body {
+    background: #fff;
+    font-size: 14px;
+    font-size: 0.87rem;
+    line-height: 1.4;
+    font-family: Poppins,Helvetica,sans-serif;
+    color: #555;
+}
+p {
+    margin-bottom: 25px;
+}
+
+.h3, h3 {
+    font-size: 1.75rem;
+}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 0.5rem;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.2;
+    color: inherit;
+}
+/**not able to get the background image to display. no coing errors**/
+.hero_home.version_1 {
+    background: #3f4079 url(../img/hero_image.jpg) no-repeat center bottom; 
+    background-size: cover;
+}
+.hero_home {
+    height: 500px;
+    width: 100%;
+    display: table;
+}
+.hero_home.version_1 .content {
+    background-color: #363768;
+    background-color: rgba(63, 64, 121, 0);
+}
+
+/*@media all and (max-width:991px)*/
+.hero_home .content {
+    padding: 0 30px;
+}
+.hero_home .content {
+    display: table-cell;
+    padding: 30px;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 21px;
+    font-size: 1.31rem;
+    color: #fff;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.25);
+    background-color: #3e3f77;
+    background-color: rgba(63, 64, 121, 0.9);
+}
+.input-group {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    width: 100%;
+}
+#custom-search-input .search-query {
+    width: 100%;
+    height: 50px;
+    padding-left: 20px;
+    border: 0;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-box-shadow: 0 0 50px 0 rgba(0,0,0,.35);
+    -moz-box-shadow: 0 0 50px 0 rgba(0,0,0,.35);
+    box-shadow: 0px 0px 50px 0px rgba(0,0,0,0.35);
+    font-weight: 500;
+    font-size: 16px;
+    font-size: 1rem;
+    color: #333;
+}
+
+/**  I could not get the buttons to display as boxes**/
+  button, input {
+    overflow: visible;
+}
+button, input, optgroup, select, textarea {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+#custom-search-input input[type=submit] {
+    position: absolute;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    right: 0px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 16px;
+    font-size: 1rem;
+    top: 0px;
+    border: 0;
+    padding: 0 25px;
+    height: 50px;
+    cursor: pointer;
+    outline: 0;
+    -webkit-border-radius: 0 3px 3px 0;
+    -moz-border-radius: 0 3px 3px 0;
+    -ms-border-radius: 0 3px 3px 0;
+    border-radius: 0 3px 3px 0;
+    background-color: #74d1c6;
+
+
+}
+#custom-search-input ul {
+    text-align: center;
+    margin-top: 25px;
+}
+
+ol, ul {
+    margin: 0 0 25px;
+    padding: 0;
+}
+#custom-search-input ul li input[type=radio] {
+    display: none;
+}
+input[type=checkbox], input[type=radio] {
+    box-sizing: border-box;
+    padding: 0;
+}
