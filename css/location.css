@@ -4,34 +4,34 @@
   font-family: Poppins,Helvetica,sans-serif;
 }
 
-#location .main-title {
+.main-title {
   text-align: center;
   line-height: 1.5;
   padding: 100px;
 }
 
-#location .main-title h2 {
+.main-title h2 {
   font-size: 2.5rem;
   font-weight: 100;
   letter-spacing: -1px;
   color: #333;
 }
 
-#location .main-title p {
+.main-title p {
   font-size: 20px;
   font-weight: 100;
 }
 
-#location .doctors-info {
+.doctors-info {
   display: flex;
 }
 
-#location .doctors-col {
+.doctors-col {
   width: 40%;
   padding: 15px;
 }
 
-#location .doctors-col .doctors-list {
+.doctors-col .doctors-list {
   background: #fff;
   margin-bottom: 25px;
   -webkit-box-shadow: 0 0 15px 0 rgba(0,0,0,.05);
@@ -45,82 +45,82 @@
   clear: both;
 }
 
-#location .doctors-col .doctors-list .col-1 {
+.doctors-col .doctors-list .col-1 {
   float: left;
   width: 20%;
 }
 
-#location .doctors-col .doctors-list .col-2 {
+.doctors-col .doctors-list .col-2 {
   float: right;
   width: 80%;
   line-height: 1.4;
 }
 
-#location .doctors-col .doctors-list .col-1 img {
+.doctors-col .doctors-list .col-1 img {
   width: 80px;
   height: 80px;
   border-radius: 50%;
 }
 
-#location .doctors-col .doctors-list .col-2 small {
+.doctors-col .doctors-list .col-2 small {
   font-size: smaller;
 }
 
-#location .doctors-col .doctors-list .col-2 h3 {
+.doctors-col .doctors-list .col-2 h3 {
   font-size: 22px;
   color: #333;
 }
 
-#location .doctors-col .doctors-list .col-2 p {
+.doctors-col .doctors-list .col-2 p {
   color: #555;
   font-size: 1rem;
   font-weight: 100;
 }
 
-#location .doctors-col .doctors-list .col-2 .rating .fas {
+.doctors-col .doctors-list .col-2 .rating .fas {
   color: #ddd;
   font-size: 1rem;
   margin-top: 15px;
 }
 
-#location .doctors-col .doctors-list .col-2 .rating .fas.voted {
+.doctors-col .doctors-list .col-2 .rating .fas.voted {
   color: #FFC107;
 }
 
-#location .doctors-col .doctors-list .col-3 {
+.doctors-col .doctors-list .col-3 {
   width: 100%;
 }
 
-#location .doctors-col .doctors-list .col-3 ul {
+.doctors-col .doctors-list .col-3 ul {
   border-top: 1px solid #ededed;
   display: block;
   padding: 20px 15px;
   margin-top: 20px;
 }
 
-#location .doctors-col .doctors-list .col-3 ul li {
+.doctors-col .doctors-list .col-3 ul li {
   display: inline-block;
   margin-right: 5px;
   font-weight: 400;
   text-transform: capitalize;
 }
 
-#location .doctors-col .doctors-list .col-3 ul li a {
+.doctors-col .doctors-list .col-3 ul li a {
   color: #999;
 }
 
-#location .doctors-col .doctors-list .col-3 ul li:first-child:after {
+.doctors-col .doctors-list .col-3 ul li:first-child:after {
     content: '|';
     font-weight: 400;
     margin-left: 8px;
     color: #ccc;
 }
 
-#location .doctors-col .doctors-list .col-3 ul li:last-child {
+.doctors-col .doctors-list .col-3 ul li:last-child {
   float: right;
 }
 
-#location .doctors-col .doctors-list .col-3 ul li:last-child a {
+.doctors-col .doctors-list .col-3 ul li:last-child a {
   border: 2px solid #e74e84;
   color: #e74e84;
   cursor: pointer;
@@ -129,17 +129,17 @@
   transition: all .3s ease-in-out;
 }
 
-#location .doctors-col .doctors-list .col-3 ul li:last-child a:hover {
+.doctors-col .doctors-list .col-3 ul li:last-child a:hover {
   background-color: #e74e84;
   color: #fff;
 }
 
 
-#location .map-col {
+.map-col {
   width: 60%;
   padding: 15px;
 }
 
-#location .map-col iframe {
+.map-col iframe {
   width: 100%;
 }
