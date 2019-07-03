@@ -40,8 +40,8 @@
   height: 380px;
   width: 370px;
   background-color: #fff;
-  display: flex;
-  justify-content: center;
+  /* display: flex;
+  justify-content: center; */
   position: relative;
   align-items: center;
   box-shadow: 2px 2px 5px #ccc;
@@ -62,15 +62,29 @@
 }
 .services__card--info {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
 }
 
 .services__card-redText {
   color: #e74e84;
   font-size: 1.3rem;
   text-transform: uppercase;
-  font-weight: 500;
+  font-weight: 600;
   margin: 25px 0 10px;
   line-height: 1.2;
+}
+
+.services__list {
+  list-style: none;
+}
+
+.servcies__list-item {
+  margin: 5px 0;
+  line-height: 1.4;
+  text-align: center;
 }
 
 .services__card-darkText {
@@ -90,4 +104,9 @@
   color: #fff;
   font-weight: 600;
   font-size: 1rem;
+}
+
+.services__button a {
+  text-decoration: none;
+  color: inherit;
 }
