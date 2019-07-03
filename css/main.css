@@ -9,9 +9,6 @@
 @import 'location.css';
 @import 'contact.css';
 
-
-
-
 * {
   box-sizing: border-box;
   padding: 0;
@@ -32,6 +29,19 @@ a {
   max-width: 1200px;
   /* padding: 20px; */
   margin: 0 auto;
+}
+
+.top-button {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background: #acacac;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 @media screen and (max-width: 1000px) {
