@@ -1,0 +1,96 @@
+/* flex system for footer logo and sections */
+#footer .row {
+  padding: 40px 0;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+}
+
+/* display for footer logo */
+
+#footer .row .footer-logo p a {
+  color: #C6C6C6;
+  font-size: 1.3rem;
+}
+
+#footer .row .footer-logo p a:hover {
+  color: #48B0EE;
+  transition: all .5s ease-in-out;
+}
+
+/* display for Socials */
+
+#footer .footer-follow .socials li {
+  display: inline;
+  font-size: 1.5rem;
+  padding-left: 20px;
+  color: #C6C6C6;
+}
+
+#footer .footer-follow .socials li:hover {
+  color: #48B0EE;
+  transition: all .5s ease-in-out;
+}
+
+/* display for sections  */
+
+#footer .sections .pages a li {
+  font-size: .9rem;
+  color: #c6c6c6;
+}
+
+#footer .sections .pages a li:hover {
+  color: #48B0EE;
+  transition: all .5s ease-in-out;
+}
+
+#footer .sections ul li {
+  display: inline;
+}
+
+
+
+/* flex system for terms and privacy in the footer */
+#footer .outline-row {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#footer .outline-row .terms p {
+  display: inline;
+}
+
+#footer .outline-row .terms .conditions {
+  padding-right: 50px;
+}
+
+/* Media Queries for Mobile */
+
+@media screen and (max-width: 1100px) {
+  #footer .outline-row {
+    margin: 0 10px;
+    text-align: center;
+  }
+
+  #footer .sections .pages {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  #footer .sections .pages a .book {
+    display: block;
+  }
+
+  #footer .footer-follow .socials a li i {
+    padding-right: 20px;
+    padding-bottom: 20px;
+    font-size: 2rem;
+  }
+
+}
+
+@media screen and (max-width: 500px) {
+  #footer .footer-follow .socials a li .fa-twitter:before {
+    padding-right: 20px;
+  }
+}

@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="/css/main.css">
+  <title>Book Your Appointment</title>
+</head>
+
+<body>
+  <header id="menu">
+    <div class="container">
+      <nav class="menu">
+        <div class="logo">
+          Palmetto Health Center
+        </div>
+        <ul class="sub-menu">
+          <li class="home">
+            <a href="index.html">
+              Home
+            </a>
+          </li>
+          <li class="about">
+            <a href="about.html">
+              About
+            </a>
+          </li>
+          <li class="contact">
+            <a href="contact.html">
+              Contact
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main id="appt">
+    <div class="main">
+      <div class="container">
+        <div class="row">
+          <div class="bking-info">
+            <!-- Existing Customer -->
+            <div class="existing-cust">
+              <p>Existing Customer?<a href="#">Click here to login</a></p>
+            </div>
+            <!-- End of Existing Customer -->
+            <!-- Start of Form title -->
+            <div class="form-title">
+              <h3>
+                Your Details
+              </h3>
+              <p>Mussum ipsum cacilds, vidis litro abertis.</p>
+            </div>
+            <!-- start of Details step -->
+            <div class="step">
+              <div class="step-row">
+                <div class="step-col">
+                  <div class="form-group">
+                    <label>First Name</label>
+                    <input type="text" class="form-control" id="firstname_booking" name="firstname_booking"
+                      placeholder="John">
+                  </div>
+                </div>
+                <div class="step-col">
+                  <div class="form-group">
+                    <label>Last Name</label>
+                    <input type="text" class="form-control" id="lastname_booking" name="lastname_booking"
+                      placeholder="Smith">
+                  </div>
+                </div>
+              </div>
+              <div class="step-row">
+                <div class="step-col">
+                  <div class="form-group">
+                    <label>Email</label>
+                    <input type="text" class="form-control" id="email_booking" name="email_booking"
+                      placeholder="John@smith.com">
+                  </div>
+                </div>
+                <div class="step-col">
+                  <div class="form-group">
+                    <label>Confirm Email</label>
+                    <input type="text" class="form-control" id="email_booking_2" name="email_booking_2"
+                      placeholder="john@smith.com">
+                  </div>
+                </div>
+              </div>
+              <div class="step-row">
+                <div class="step-col">
+                  <div class="form-group">
+                    <label>Telephone</label>
+                    <input type="text" class="form-control" id="telephone_booking" name="telephone_booking"
+                      placeholder="(323)000-0000">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <hr>
+            <!-- End of Details Step -->
+            <!-- Start of payment title -->
+            <div class="form-title">
+              <h3>
+                Payment Information
+              </h3>
+              <p>Mussum ipsum cacilds, vidis litro abertis.</p>
+            </div>
+            <!-- End of Payment title -->
+            <div class="step">
+              <!-- Name on card form -->
+              <div class="form-group">
+                <label>Name on card</label>
+                <input type="text" class="form-control" id="name_card_booking" name="name_card_booking"
+                  placeholder="John Smith">
+              </div>
+              <!-- end of name on card form -->
+              <!-- Card number row -->
+              <div class="form-group">
+                <div class="card-number">
+                  <label>Card Number</label>
+                  <input type="text" class="form-control" id="card_number" name="card_number"
+                    placeholder="xxxx-xxxx-xxxx-xxxx">
+                </div>
+              </div>
+              <!-- end of Card Number row -->
+              <div class="form-group">
+                <!-- Expiration Date labels -->
+                <div class="exp-date">
+                  <label>Expiration Date</label>
+                  <input type="text" class="form-control" id="expire_month" name="expire_month" placeholder="MM">
+                  <input type="text" class="form-control" id="exp_year" name="exp_year" placeholder="Year">
+                  <!-- end of Expiration Date labels -->
+                  <!-- Security Code -->
+                  <div class="security-code">
+                    <label>Security Code</label>
+                    <div class="row">
+                      <div class="form-group">
+                        <input type="text" id="ccv" name="ccv" class="form-control" placeholder="CCV">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- end of Expiration labels -->
+            <div class="paypal">
+              <h5>checkout with Paypal</h5>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore hic fugit tempora nesciunt enim,
+                doloribus
+                eveniet voluptatem vel ex id perspiciatis totam quis atque error placeat, esse sint quos corrupti.</p>
+
+              <a href="#">
+                <button>Checkout with Paypal</button>
+              </a>
+            </div>
+            <hr>
+            <!-- end of step -->
+            <!-- Start of Billing Address -->
+            <!-- Billing Address title -->
+            <div class="form-title">
+              <h3>
+                Billing Address
+              </h3>
+              <p>Mussum ipsum cacilds, vidis litro abertis.</p>
+            </div>
+            <!-- End of Billing Address Title -->
+            <!-- Start of Billing Address forms -->
+            <div class="step">
+              <!-- Billing Address -- Country Section -->
+              <div class="row">
+                <div class="country-options">
+                  <label>Country</label>
+                  <div class="form-group">
+                    <select name="country" id="country" class="form-control">
+                      <option>Select Your Country</option>
+                      <option value="Europe">Europe</option>
+                      <option value="United States">United States</option>
+                      <option value="Asia">Asia</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+              <!-- End of Billing Address -- Country Section -->
+              <!-- start of Billing Address -- Address Section -->
+              <div class="row">
+                <div class="street-add">
+                  <div class="form-group">
+                    <label>Street Line</label>
+                    <input type="text" id="street" name="street" class="form-control" placeholder="Street Address">
+                  </div>
+                </div>
+                <div class="apt-number">
+                  <div class="form-group">
+                    <label>Apt #/ Suite #/ PO Box</label>
+                    <input type="text" id="Apt_Number" name="Apt_Number" class="form-control"
+                      placeholder="Apt # / Suite # / PO Box">
+                  </div>
+                </div>
+              </div>
+              <!-- end of billing address -- Address Section -->
+              <!-- start of billing address -- City and State Section -->
+              <div class="row">
+                <div class="city">
+                  <div class="form-group">
+                    <label>City</label>
+                    <input type="text" id="city_booking" name="city_booking" class="form-control"
+                      placeholder="Los Angeles">
+                  </div>
+                </div>
+                <div class="state">
+                  <div class="form-group">
+                    <label>State</label>
+                    <input type="text" id="state_booking" name="state_booking" class="form-control"
+                      placeholder="California">
+                  </div>
+                </div>
+                <div class="postal-code">
+                  <div class="form-group">
+                    <label>Postal Code</label>
+                    <input type="text" id="postal_code" name="postal_code" class="form-control" placeholder="90042">
+                  </div>
+                </div>
+              </div>
+              <!-- end of billing address -- City and State Section -->
+            </div>
+            <hr>
+            <!-- End of Billing Address Section -->
+            <!-- Cancellation Policy -->
+            <div class="policy">
+              <h4>Cancellation Policy</h4>
+              <div class="form-group">
+                <div class="checkboxes">
+                  <label class="container_check">
+                    I accept
+                    <a href="#">terms and conditions and general policy</a>
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                  </label>
+                </div>
+              </div>
+              <!-- end of Cancellation policy -->
+            </div>
+          </div>
+          <aside class="sidebar">
+            <div class="stickysidebar">
+              <div class="booking_summary">
+                <div class="summary_title">
+                  <h3>Your Booking</h3>
+                </div>
+                <form>
+                  <div class="summary">
+                    <ul>
+                      <li class="Date">
+                        Date:
+                        <strong>07/15/2019</strong>
+                      </li>
+                      <li class="Time">
+                        Time:
+                        <strong>10:30am</strong>
+                      </li>
+                      <li class="Dr">
+                        Dr.Name:
+                        <strong>Dr. Jones Smith</strong>
+                      </li>
+                    </ul>
+                  </div>
+                  <hr>
+                  <ul class="treatments">
+                    <li>
+                      <p>Back Pain Visit</p>
+                      <strong>$55</strong>
+                    </li>
+                    <li>
+                      <p>Cardiovascular Screening</p>
+                      <strong>$55</strong>
+                    </li>
+                    <li class="total">
+                      total
+                      <strong>$110</strong>
+                    </li>
+                  </ul>
+                  <hr>
+                  <a href="#">
+                    <button>Confirm and Pay</button>
+                  </a>
+                </form>
+              </div>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer id="footer">
+    <div class="container">
+      <div class="row">
+        <div class="footer-logo">
+          <p>
+            <a href="#">Palmetto Health Center</a>
+          </p>
+        </div>
+        <div class="sections">
+          <ul class="pages">
+            <a href="about.html">
+              <li>About</li>
+            </a>
+            <a href="appointment.html">
+              <li class="book">Book an Appt.</li>
+            </a>
+            <a href="contact.html">
+              <li>Contact</li>
+            </a>
+          </ul>
+        </div>
+        <div class="footer-follow">
+          <ul class="socials">
+            <a href="#">
+              <li class="facebook">
+                <i class="fab fa-facebook-square"></i>
+              </li>
+            </a>
+            <a href="#">
+              <li class="twitter">
+                <i class="fab fa-twitter"></i>
+              </li>
+            </a>
+            <a href="#">
+              <li class="linkedin">
+                <i class="fab fa-linkedin"></i>
+              </li>
+            </a>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <hr>
+    <div class="outline-row">
+      <div class="terms">
+        <p class="conditions">
+          Terms and Conditions
+        </p>
+        <p>
+          Privacy
+        </p>
+      </div>
+      <div class="doctors">
+        <div id="copy">&#169; 2019 Palmetto Health Clinic</div>
+      </div>
+    </div>
+    </div>
+  </footer>
+
+</body>
+
+</html>

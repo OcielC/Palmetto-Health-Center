@@ -1,0 +1,48 @@
+#menu {
+  background: #ffffff;
+}
+
+/* flex system for navbar could be altered if need be */
+#menu nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 60px;
+  width: 100%;
+}
+
+#menu nav ul {
+  margin: 1em 0 .5em;
+  text-align: center;
+}
+
+#menu nav li {
+  display: inline;
+  padding: .5em 1.5em;
+
+}
+
+#menu nav a {
+  display: inline-block;
+  color: #333333;
+  border-bottom: 2px solid transparent;
+  padding: 5px;
+}
+
+#menu nav a:hover {
+  border-bottom: 2px solid #4B81CB;
+}
+
+/* media query for mobile devices the navbar folds into 2 sections the logo on top and the sections on the bottom in 4 columns, we could still add for bigger screens and for tablets */
+@media (min-width: 960px) {
+  #menu .container {
+    justify-content: space-between;
+  }
+}
+
+@media(max-width: 545px) {
+  #menu .container ul li {
+    padding: 0 0 10px;
+  }
+}

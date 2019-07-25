@@ -1,0 +1,97 @@
+#doctors {
+  padding: 100px 0;
+}
+
+#doctors .doctors_title h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin-bottom: 40px;
+}
+
+#doctors .specialty_row_title .specialty_title h3 {
+  text-align: center;
+  font-size: 1.7rem;
+  font-weight: 500;
+  margin: 60px 0;
+}
+
+#doctors .special_row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+#doctors .special_row .specialty_col {
+  flex-grow: 1;
+  width: 300px;
+  border-radius: 7px;
+  box-shadow: 2px 2px 5px #ccc;
+  background-color: #ffffff;
+  margin: 0 20px;
+  text-align: center;
+}
+
+#doctors .special_row .specialty_col img {
+  text-align: center;
+}
+
+#doctors .special_row .specialty_col:hover {
+  box-shadow: 2px 5px 5px 6px #ccc;
+}
+
+/* Doctor Photos */
+
+#doctors .specialty_col img {
+  text-align: center;
+  padding-top: 20px;
+}
+
+/* Doctor Description */
+
+#doctors .specialty_col h4 {
+  text-align: center;
+  font-size: 1.3rem;
+  margin: 0 auto;
+  padding: 15px;
+}
+
+#doctors .specialty_col p {
+  padding: 0 20px;
+  line-height: 1.5;
+  font-size: .9rem;
+}
+
+#doctors .specialty_col a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+/* Button Effects for book your doctor now */
+
+#doctors .specialty_col a button {
+  padding: 10px 15px;
+  background-color: #1517B1;
+  color: white;
+  font-size: 1rem;
+  font-weight: 400;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+/* button hover effects for book your doctor now */
+
+#doctors .specialty_col a button:hover {
+  background-color: #D65984;
+  transition: .5s all ease-in-out;
+}
+
+/* Media Queries for Mobile */
+
+@media screen and (max-width: 1100px) {
+  #doctors .special_row .specialty_col {
+    margin: 20px;
+  }
+}

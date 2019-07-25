@@ -1,0 +1,150 @@
+/* flex system for booking page */
+#appt .row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+#appt .bking-info {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+  box-shadow: 2px 2px 5px #ccc;
+  margin-right: 20px;
+  padding: 20px;
+}
+
+#appt .sidebar {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+  height: 50%;
+  box-shadow: 2px 2px 5px #ccc;
+}
+
+/* styling for existing customer */
+#appt .main .existing-cust {
+  padding: 15px;
+  margin-bottom: 15px;
+  background-color: #f8f8f8;
+}
+
+#appt .main .existing-cust p {
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+#appt .main .existing-cust p a {
+  font-size: .9rem;
+  font-weight: 400;
+  color: #1517b1;
+  padding-left: 5px;
+}
+
+#appt .main .existing-cust p a:hover {
+  color: #D65984;
+  transition: all .5s ease-in-out;
+}
+
+/* Styling for the form-titles */
+
+#appt .form-title h3 {
+  font-size: 1.3rem;
+  text-decoration: underline;
+  margin-bottom: 15px;
+}
+
+#appt .form-title p {
+  font-size: .9rem;
+  margin-bottom: 10px;
+}
+
+/* flex display for step sections */
+
+#appt .step {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+#appt .form-group label {
+  display: block;
+  padding-bottom: 5px;
+}
+
+#appt .form-group input {
+  padding: 15px 28px 15px 5px
+}
+
+/* styling for paypal section */
+
+#appt .paypal h5 {
+  font-size: 1rem;
+  text-transform: capitalize;
+  margin-bottom: 10px;
+}
+
+#appt .paypal p {
+  font-size: .9rem;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+#appt .paypal a button {
+  padding: 10px 15px;
+  background-color: #1517b1;
+  color: #fff;
+  font-size: .9rem;
+  font-weight: 500;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+
+#appt .paypal a button:hover {
+  background-color: #D65984;
+  transition: all .5s ease-in-out;
+}
+
+/* Cancellation Policy */
+#appt .policy h4 {
+  font-size: 1.5rem;
+  text-decoration: underline;
+  margin-bottom: 10px;
+}
+
+#appt .policy a {
+  color: #1517b1;
+}
+
+#appt .policy a:hover {
+  color: #D65984;
+  transition: all .5s ease-in-out;
+}
+
+/* Aside Container */
+#appt .sidebar {
+  padding: 15px;
+}
+
+#appt .sidebar a button {
+  padding: 10px 15px;
+  cursor: pointer;
+  font-size: .9rem;
+  font-weight: 500;
+  background-color: #1517b1;
+  color: #fff;
+  border-radius: 25px;
+}
+
+#appt .sidebar a button:hover {
+  background-color: #D65984;
+  transition: all .5s ease-in-out;
+}
+
+#appt .sidebar .summary_title {
+  background-color: #D65984;
+  padding: 20px;
+}
