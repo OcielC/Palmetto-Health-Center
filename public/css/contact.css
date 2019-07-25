@@ -1,0 +1,156 @@
+/* Contact Area */
+#contact-area {
+  background: #F5F8FA;
+  padding: 55px 0;
+}
+
+/* Contact Details  Section  Start Here  */
+#contact-area .contact-details {
+  width: 30%;
+  display: inline-block;
+  margin: 0 80px;
+}
+
+#contact-area .contact-details .mail,
+#contact-area .contact-details .phone-number {
+  color: #E74E84;
+}
+
+#contact-area .contact-details a:hover {
+  color: #333;
+}
+
+#contact-area .contact-details a {
+  transition: all .5s ease-in-out;
+  color: #1517B1;
+}
+
+#contact-area .contact-details .box {
+  margin-bottom: 20px;
+}
+
+#contact-area .contact-details .address h1 {
+  font-weight: 600;
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+  text-transform: capitalize;
+}
+
+#contact-area .contact-details .direction {
+  margin-bottom: 45px;
+}
+
+#contact-area .contact-details .direction h1 {
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+#contact-area .contact-details .direction input {
+  display: block;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  padding: 7px 20px;
+  border: none;
+  border: 1px solid #ced4da;
+}
+
+#contact-area .contact-details .direction a {
+  background-color: #1517B1;
+  color: #ffffff;
+  padding: 7px 20px;
+  border-radius: 25px;
+  cursor: pointer;
+  margin-bottom: 50px;
+  font-size: .8rem;
+  font-weight: 500;
+}
+
+#contact-area .contact-details .direction a:hover {
+  background-color: #D65984;
+  transition: all .5s ease-in-out;
+}
+
+#contact-area .contact-details h1 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+  text-transform: capitalize;
+}
+
+#contact-area .contact-details .adminstration .small-paragraph,
+#contact-area .contact-details .question .small-paragraph {
+  font-size: 1rem;
+}
+
+/* Contact Details Section End Here  */
+
+
+/* Contact Form Section  Start Here  */
+#contact-area .contact-form-section {
+  background: #FFFFFF;
+  display: inline-block;
+  -webkit-box-shadow: 0px 1px 19px 4px rgba(239, 242, 244, 1);
+  -moz-box-shadow: 0px 1px 19px 4px rgba(239, 242, 244, 1);
+  box-shadow: 0px 1px 19px 4px rgba(239, 242, 244, 1);
+  border-radius: 5px;
+  padding: 20px;
+}
+
+#contact-area .contact-form-section h3 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+#contact-area .contact-form-section p {
+  margin-bottom: 1rem;
+}
+
+#contact-area .contact-form-section .row {
+  display: flex;
+}
+
+#contact-area .contact-form-section .col .form-group .form-control {
+  margin-bottom: 10px;
+  border-radius: 5px;
+  padding: 7px 20px;
+  border: none;
+  border: 1px solid #ced4da;
+  margin-right: 20px;
+}
+
+#contact-area .contact-form-section .col .form-group .message_contact {
+  width: 443px;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+#contact-area .contact-form-section .form .btn-submit {
+  background: #1517B1;
+  color: #ffffff;
+  padding: 7px 20px;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: .8rem;
+  font-weight: 500;
+  border: none;
+}
+
+#contact-area .contact-form-section .form .btn-submit:hover {
+  background-color: #D65984;
+  transition: all .5s ease-in-out;
+}
+
+
+
+/* Contact Form Section  End Here  */
+
+/* Media Queries for Mobile */
+
+
+@media screen and (max-width: 1100px) {
+  #contact-area .contact-form-section .row {
+    flex-grow: 1;
+  }
+}

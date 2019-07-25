@@ -1,0 +1,44 @@
+#landing {
+  padding: 0 0 40px;
+}
+
+#landing .gradient {
+  background: rgb(19, 12, 183);
+  background: linear-gradient(162deg, rgba(19, 12, 183, 1) 0%, rgba(52, 125, 208, 1) 45%, rgba(82, 229, 231, 1) 100%);
+  padding: 250px 0;
+}
+
+#landing .gradient .container .desc {
+  text-align: center;
+}
+
+#landing .gradient .container .desc h1 {
+  font-size: 60px;
+  font-weight: 600;
+  color: #ffffff;
+  margin: 0 0 25px;
+}
+
+#landing .gradient .container .desc p {
+  font-size: 21px;
+  font-weight: 400;
+  color: #ffffff;
+  margin: 0 0 25px;
+  line-height: 1.5;
+}
+
+#landing .gradient .container .desc a button {
+  background-color: #1517b1;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #ffffff;
+  cursor: pointer;
+  padding: 10px 40px;
+  border-radius: 35px;
+  border: none;
+}
+
+#landing .gradient .container .desc a button:hover {
+  background-color:#D65984;
+  transition: all .5s ease-in-out;
+}

@@ -1,0 +1,103 @@
+/* Service Section */
+
+#services {
+  padding: 100px 0;
+}
+
+#services .service-header h2 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin-bottom: 60px;
+}
+
+#services .service-header p {
+  font-size: 1.1rem;
+  line-height: 1.5;
+  font-weight: 400;
+  padding-bottom: 40px;
+}
+
+/* flex display for row and col */
+
+#services .service-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+#services .service-col {
+  box-shadow: 2px 2px 5px #cccccc;
+  flex-grow: 1;
+  width: 25%;
+  text-align: center;
+  background-color: #fff;
+}
+
+#services .col_2 {
+  margin: 0 50px;
+}
+
+/* Styling for the contents inside of the columns */
+
+#services .service-col img {
+  margin: 25px;
+  width: 160px;
+  height: 160px;
+}
+
+#services .service-col h4 {
+  font-size: 1.7rem;
+  padding-bottom: 20px;
+}
+
+#services .service-col p {
+  font-size: 1rem;
+}
+
+/* service button styling */
+
+#services .service-button {
+  text-align: center;
+  padding-top: 30px;
+}
+
+#services .service-button a button {
+  padding: 20px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 500;
+  background-color: #1517B1;
+  color: #ffffff;
+  border-radius: 7px;
+}
+
+#services .service-button a button:hover {
+  background-color: #D65984;
+  transition: all .5s ease-in-out;
+}
+
+/* Hover Effect for the Columns */
+
+#services .service-col:hover {
+  box-shadow: 4px 4px 10px #cccccc;
+}
+
+/* Media Queries for Mobile */
+
+@media screen and (max-width: 800px) {
+  .service-col {
+    flex: 1 100%;
+  }
+
+  .col_1 {
+    margin: 50px;
+  }
+
+  .col_2 {
+    margin: 50px 0;
+  }
+
+  .col_3 {
+    margin: 50px;
+  }
+}

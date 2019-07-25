@@ -1,0 +1,32 @@
+/* this site url is for icons from font awesome */
+@import 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.css';
+/* font-family for website */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=swap');
+@import '/css/reset.css';
+@import '/css/header.css';
+@import '/css/about.css';
+@import '/css/contact.css';
+@import '/css/landing.css';
+@import '/css/services.css';
+@import '/css/doctors.css';
+@import '/css/booking.css';
+@import '/css/footer.css';
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* container for entire site can be implemented in each section individually if you are having trouble with images. */
+.container {
+  width: 1400px;
+  max-width: 100%;
+  margin: 0 auto;
+}
